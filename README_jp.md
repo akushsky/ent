@@ -14,7 +14,7 @@ src="https://s3.eu-central-1.amazonaws.com/entgo.io/assets/gopher_graph.png"/>
 - **Schema As Code(コードとしてのスキーマ)** - あらゆるデータベーススキーマをGoオブジェクトとしてモデル化します。
 - **任意のグラフを簡単にトラバースできます** - クエリや集約の実行、任意のグラフ構造の走査を容易に実行できます。
 - **100%静的に型付けされた明示的なAPI** - コード生成により、100%静的に型付けされた曖昧さのないAPIを提供します。
-- **マルチストレージドライバ** - MySQL、MariaDB、 TiDB、PostgreSQL、CockroachDB、SQLite、Gremlinをサポートしています。
+- **マルチストレージドライバ** - MySQL、MariaDB、 TiDB、PostgreSQL、CockroachDB、SQLite、Oracle (godror)、Gremlinをサポートしています。
 - **拡張性** - Goテンプレートを使用して簡単に拡張、カスタマイズできます。
 
 ## クイックインストール

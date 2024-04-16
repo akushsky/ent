@@ -41,6 +41,8 @@ func NewInspect(d dialect.Driver, opts ...InspectOption) (*Inspector, error) {
 		i.sqlDialect = &SQLite{Driver: d}
 	case dialect.Postgres:
 		i.sqlDialect = &Postgres{Driver: d, schema: i.schema}
+	case dialect.Oracle:
+		i.sqlDialect = &Oracle{Driver: d, schema: i.schema}
 	default:
 		return nil, fmt.Errorf("sql/schema: unsupported dialect %q", d.Dialect())
 	}

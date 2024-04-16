@@ -12,7 +12,7 @@ src="https://s3.eu-central-1.amazonaws.com/entgo.io/assets/gopher_graph.png"/>
 -   **스키마를 코드로 관리** - 모든 데이터베이스 스키마와 모델을 Go Object로 구현 가능.
 -   **어떤 그래프든 쉽게 탐색가능** - 쿼리실행, 집계, 그래프구조를 쉽게 탐색 가능.
 -   **정적 타입 그리고 명시적인 API** - 100% 생성된 코드로, 정적타입과 명시적인 API를 제공.
--   **다양한 스토리지 드라이버** - MySQL, MariaDB, TiDB, PostgreSQL, CockroachDB, SQLite and Gremlin 를 지원
+-   **다양한 스토리지 드라이버** - MySQL, MariaDB, TiDB, PostgreSQL, CockroachDB, SQLite, Oracle (godror) and Gremlin 를 지원
 -   **확장성** - Go 템플릿을 이용하여 간단하게 확장, 커스터마이징 가능.
 
 ## 빠른 설치
